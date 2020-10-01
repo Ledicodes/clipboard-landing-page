@@ -1,0 +1,318 @@
+/* font-family: 'Bai Jamjuree', sans-serif; */
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.desktop {
+    background-image: url('../clipboard-landing-page-master/images/bg-header-desktop.png');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+
+.logo {
+    width: 65px;
+    margin: 0 auto;
+}
+
+p {
+    color: #ababad;
+}
+.clipboard {
+    left: 20%;
+    text-align: center;
+}
+
+
+.clipboard h1 {
+    margin-top: 30px;
+    font-weight: 70px;
+    font-size: 40px;
+}
+
+.clipboard p {
+    width: 550px;
+    margin: 15px auto;
+}
+
+.btn {
+    max-width: 300px;
+    margin: 50px auto 10px; 
+   
+}
+
+.btn button{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:  hsl(201, 11%, 66%);
+}
+
+.first {  
+    background: hsl(171, 66%, 44%);
+    margin-bottom: 10px;
+}
+
+.second {
+    background: hsl(233, 100%, 69%);
+}
+
+.snippets {
+    text-align: center;
+    width: 640px;
+    margin: 30px auto;
+    margin-top: 80px;
+}
+
+.snippets h2 {
+    font-size: 35px;
+    font-weight: 90px;
+    margin-bottom: 20px;
+}
+
+.snippets p {
+    margin-bottom: 40px;
+}
+
+.computer {
+    background-image: url('../clipboard-landing-page-master/images/image-computer.png');
+    background-repeat: no-repeat;
+    background-position: left left;
+    width: 752px;
+    height: 527px;
+}
+
+.application {
+    /* margin-top: 30px; */
+    display: flex; 
+}
+
+.search {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.search h2 {
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.search p {
+    line-height: 30px;
+}
+
+.simpleclicks {
+    text-align: center;
+    width: 640px;
+    margin: 100px auto;
+}
+
+.simpleclicks p {
+    margin: 20px auto;
+    width: 600px;
+    margin-bottom: 90px;
+}
+
+ .simpleclicks h2 {
+    font-size: 35px;
+    font-weight: 90px;
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+.phones {
+    margin: 0 auto;
+    background-image: url('../clipboard-landing-page-master/images/image-devices.png');
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80vh;
+    margin-bottom: 10%;
+}
+
+.workflow {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.workflow h2 {
+    font-size: 35px;
+    font-weight: 90px;
+    margin-bottom: 1%;
+}
+
+.all {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.all h2 {
+    font-size: 35px;
+    font-weight: 90px;
+    margin-bottom: 2%;
+}
+
+.all img {
+    margin-top: 45px;
+    margin-bottom: 7%;
+}
+
+.blacklist {
+    width: 500px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.all h3 {
+   margin-bottom: 15px; 
+}
+
+.text-snippet {
+    width: 500px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.preview {
+    width: 500px;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 5%;
+}
+
+.google {
+    margin-right: 50px;
+}
+
+.hp {
+    margin-right: 50px;    
+}
+
+.ibm {
+    margin-right: 50px;
+}
+
+.microsoft {
+    margin-right: 50px;
+}
+
+.graphics {
+    margin-right: 50px;
+}
+
+.ios-mac {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.store p {
+    margin: 15px auto;
+    margin-bottom: 25px;
+    width: 650px;
+}
+
+footer {
+    background-color: #f1f1fa;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.footer-li {
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer .footer-logo {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+footer div {
+    width: 200px;
+    margin: 0 20px;
+}
+
+footer div ul li{
+    list-style: none;
+}
+
+.faq {
+    margin-bottom: 10px;
+}
+
+.policy {
+    margin-bottom: 10px;
+}
+
+footer div img {
+    width: 40px;
+}
+
+footer .footer-image {
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    /*margin-right: 50px;*/
+    margin-left: 97px;
+}
+
+.footer-image {
+    /* object-fit: fill; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: right;
+    /* float: left; */
+}
+
+/* .footer-image img { */
+
+    /* margin: 0 10px; */
+/* } */
+
+.facebook {
+    margin-right: 16px;
+}
+
+.twitter {
+    margin-right: 16px;
+}
+
+/*
+.attribution { 
+    background-color: #f1f1fa;
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+
+}*/  
+
