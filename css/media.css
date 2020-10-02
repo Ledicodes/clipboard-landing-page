@@ -1,7 +1,7 @@
 @media (max-width: 768px), (max-width: 1200) {
     
     .desktop {
-        background-image: url('../clipboard-landing-page-master/images/bg-header-mobile.png');
+        background-image: url('../images/bg-header-mobile.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -61,7 +61,7 @@
     }
 
     .computer {
-        background-image: url('../clipboard-landing-page-master/images/image-computer.png');
+        background-image: url('../images/image-computer.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 90%;
@@ -110,7 +110,7 @@
 
     .phones {
         /* margin: 0 auto; */
-        background-image: url('../clipboard-landing-page-master/images/image-devices.png');
+        background-image: url('../images/image-devices.png');
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
